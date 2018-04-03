@@ -1,0 +1,199 @@
+
+
+/*-----typo-----*/ 
+
+@font-face{
+	font-family: "savate-regular"; src: url(font/savate-regular.otf);
+}
+
+
+@font-face{
+	font-family: "LiberationSerif-Regular"; src: url(font/LiberationSerif-Regular.otf);
+}
+
+@font-face{
+	font-family: "RobotoCondensed-Regular"; src: url(font/RobotoCondensed-Regular.ttf);
+}
+
+@font-face{
+	font-family: "arial"; src: url(font/arial.ttf);
+}
+/*-----structure site-----*/
+
+
+#menu ul {
+
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	
+}
+
+#menu ul li {
+	font-family: "arial", cursive;
+	display: inline-block;
+	margin-right: 150px;
+	margin-left: 150px;
+	font-size: 15px;
+
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#menu ul li a:hover {
+
+	font-family: "savate-regular"
+
+}
+
+
+
+/*-----galerie-----*/
+
+
+.gallery_projets {
+
+	list-style-type: none;
+	display:inline-block; 
+	justify-content: space-between;
+}
+
+
+.legende_projets ul li {
+
+	list-style-type: none;
+	display:inline-block;
+	font-family: "arial", cursive; 
+	text-decoration: none;
+	font-size: 13px;
+	color: black;
+
+}
+
+
+.image {
+
+	width: 300px;
+	display: inline-block;
+
+
+}
+
+header {
+	justify-content: space-between;
+}
+
+.titre {
+
+
+}
+
+.url a {
+	text-decoration: none;
+	color: black;
+	align-items: right;
+
+}
+
+.url a:hover {
+
+	font-family: "savate-regular"
+}
+
+
+/*----contact----*/
+
+
+.contact {
+
+	font-family: "savate-regular", cursive;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 150px;
+
+}
+
+.contact a {
+
+	text-decoration: none;
+	color: black;
+
+}
+	
+.contact a:hover {
+
+	font-size: 40px;
+}
+
+
+/*---infos---*/
+
+#infos {
+	width: 550px;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+.texte {
+
+	font-family: "savate-regular", cursive;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+#cv {
+	font-family: "RobotoCondensed-Regular", cursive;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+
+#cv:hover {
+	font-family: "savate-regular", cursive;
+}
+
+/*---articles---*/
+
+.bloc_texte {
+	width: 700px;
+	margin: auto;
+	margin-top: 100px;
+	text-align: center;
+	
+}
+.image_outils_sorcellaires {
+
+	width: 700px;
+	padding: 50px;
+}
+
+.titre_projet {
+
+	font-family: "RobotoCondensed-Regular", cursive;
+	font-size: 15px;
+	text-align: center;
+	width: 450px;
+	margin: auto;
+}
+
+.liens {
+
+	text-decoration: none;
+	font-family:"RobotoCondensed-Regular", cursive; 
+	color: black; 
+}
+
+.liens:hover {
+
+	font-family: "savate-regular", cursive; 
+
+}
+
+
